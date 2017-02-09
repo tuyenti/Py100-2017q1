@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# Tuyen Nguyen
+# HW4
+##############################################
 def dictionary_add(curent_dict, key,value):
     curent_dict[key] = value
 
@@ -53,5 +57,6 @@ def test_diction():
     replacewith(new_dict, 't')
     print(new_dict)
 
-test_diction()
-setexercise()
+if __name__ == "__main__":
+    test_diction()
+    setexercise()
